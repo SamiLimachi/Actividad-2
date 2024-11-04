@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título al borde superior</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        nav {
+            background-color: yellow;
+        }
+
+        section,
+        aside,
+        footer {
+            padding: 10px;
+            background-color: #d8eacd;
+        }
+
+        header {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header img {
+            vertical-align: middle;
+        }
+
+        nav {
+            font-family: Verdana, Arial, Tahoma;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        nav a {
+            padding: 8px 16px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        aside {
+            border: black solid 1px;
+            width: 10%;
+            padding: 0px;
+
+        }
+
+        aside h3 {
+            background-color: #6eab40;
+            padding: 10px;
+            margin: 0%;
+            color: #1752d3;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+            list-style-type: disc;
+            /* Tipo de lista con puntos */
+            padding-left: 20px;
+            /* Espaciado desde el borde izquierdo */
+            color: rgb(0, 140, 255);
+        }
+
+        aside ul li {
+            padding: 5px 0;
+        }
+
+        section {
+            width: 75%;
+            padding: 20px;
+            background-color: #ffffff;
+            margin-left: 20px;
+        }
+
+        .image-container img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px;
+        }
+
+        section h2 {
+            width: auto;
+            height: auto;
+            padding: 0;
+            /* Sin padding para que no haya espacio interno */
+            margin: 0;
+            /* Sin margen para que no haya espacio externo */
+            background-color: rgb(110, 187, 100);
+            text-align: center;
+            border: 1px solid black;
+
+        }
+
+        section {
+            margin-bottom: 20px;
+            /* para espacio entres tablas*/
+            padding: 0;
+            /* Sin padding para que no haya espacio interno */
+            border-collapse: collapse;
+            width: 60%;
+            border: 1px solid #165f16;
+            /* Borde general de la tabla */
+        }
+
+        .paraba-militar {
+            font-weight: bold;
+            color: Black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="http://especiesbolivianas.info/img/logo.png" alt="Especies Bolivianas">
+        <img src="http://especiesbolivianas.info/img/publicidad/siandariel-logo.png" alt="">
+    </header>
+    <nav>
+        <a href="inicio.html">Inicio</a>
+        <a href="LugaresTuris.html">Lugares turísticos</a>
+        <a href="Biocentros.html">Biocentros</a>
+        <a href="Hotel.html">Hoteles Eco Resort</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <aside>
+            <h3>Grupos</h3>
+            <ul>
+                <li><a href="http://especiesbolivianas.info/especie.aspx?gru=3">Animales</a></li>
+                <li><a href="http://especiesbolivianas.info/especie.aspx?gru=14">Plantas</a></li>
+            </ul>
+
+
+            <h3>Secciones</h3>
+            <ul>
+                <li><a href="http://especiesbolivianas.info/especie.aspx?esp=endemica">Especies Endémicas</a></li>
+                <li><a href="http://especiesbolivianas.info/especie.aspx?esp=enextincion">Especies en Extinción</a></li>
+                <li><a href="http://especiesbolivianas.info/pagina.aspx?sec=jorge">Sobre mí</a></li>
+                <li><a href="http://especiesbolivianas.info/paginas/20120130%20Proyecto%20EB.pdf">El proyecto</a></li>
+                <li><a href="http://especiesbolivianas.info/denuncia.aspx?sec=1">Animales maltratados</a></li>
+                <li><a href="http://especiesbolivianas.info/denuncia.aspx?sec=2">Contaminación</a></li>
+                <li><a href="http://especiesbolivianas.info/pagina.aspx?sec=plantines">Plantines</a></li>
+                <li><a href="http://especiesbolivianas.info/especie.aspx?esp=plantasmasmiradas">Plantas más miradas</a>
+                </li>
+                <li><a href="http://especiesbolivianas.info/especie.aspx?esp=animalesmasmirados">Animales más
+                        mirados</a></li>
+            </ul>
+        </aside>
+
+        <section>
+
+            <h2>Lugares Turistios de Bolivia,turismo aventura en Bolivia</h2>
+
+
+            <div>
+                <tbody>
+                    <tr>
+                        <td class="caja2td1">
+                            <div id="CPHEB_EcoturismoPanel">
+                                <table id="CPHEB_TArticulo" cellspacing="0" cellpadding="0" align="Left"
+                                    style="border-collapse:collapse;">
+                                    <tbody>
+                                        <tr>
+                                            <td class="CdaImagenBordeInf" valign="top"><a target="_blank"
+                                                    href="ecoturismo_fotos.aspx?eco=44"><img
+                                                        title="Bolivian Adventures Villa Tunari"
+                                                        src="http://especiesbolivianas.info/img/ecoturismo/eco_44_421.jpg"
+                                                        border="0" width="150" height="100"></a></td>
+                                            <td class="CdaDescripcion" align="left" valign="top"><a
+                                                    href="ecoturismo_ver.aspx?eco=44"
+                                                    title="Bolivian Adventures Villa Tunari">Bolivian Adventures Villa
+                                                    Tunari</a><br>
+                                                <font color="maroon">Localidad: </font>Cochabamba<span class="span1"> »
+                                                </span>Chapare<span class="span1"> » </span>Villa Tunari<br>
+                                                <font color="gray">Bolivian Adventures Villa Tunari
+
+                                                    Villa Tunari es Capital turística de Cochabamba, la mejor opción
+                                                    para disfrutar de unas vacaciones inolvidables en un ambiente
+                                                    tropical.
+
+                                                    Contacto
+                                                    Tel. 76426868
+                                                    e-mail: villatunariparaiso@gmail.com
+                                                    Fan Page: https://www.facebook.com/BolAdventures/
+                                                </font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="CdaImagenBordeInf" valign="top"><a target="_blank"
+                                                    href="ecoturismo_fotos.aspx?eco=43"><img
+                                                        title="YURAVENTURA PARQUE EXTREMO"
+                                                        src="http://especiesbolivianas.info/img/ecoturismo/eco_43_413.jpg"
+                                                        border="0" width="150" height="112"></a></td>
+                                            <td class="CdaDescripcion" align="left" valign="top"><a
+                                                    href="ecoturismo_ver.aspx?eco=43"
+                                                    title="YURAVENTURA PARQUE EXTREMO">YURAVENTURA PARQUE
+                                                    EXTREMO</a><br>
+                                                <font color="maroon">Localidad: </font>Cochabamba<span class="span1"> »
+                                                </span>Chapare<span class="span1"> » </span>Villa Tunari<br>
+                                                <font color="gray">YURAVENTURA PARQUE EXTREMO
+
+                                                    Aventura Extrema!
+
+                                                    Parque aéreo extremo, circuitos para adultos y niños, zipline,
+                                                    tirolesas y muchos mas!!
+
+                                                    Una hermosa y divertida aventura en medio de la naturaleza,
+                                                    circuitos con desafíos a 3 metros de altura, columpios, tirolesas,
+                                                    áreas de descanso, snack - Rest...<a
+                                                        href="ecoturismo_ver.aspx?eco=43"
+                                                        title="mas información sobre YURAVENTURA PARQUE EXTREMO">mas</a>
+                                                </font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="CdaImagenBordeInf" valign="top"><a target="_blank"
+                                                    href="ecoturismo_fotos.aspx?eco=42"><img
+                                                        title="San Ignacio de Velasco"
+                                                        src="http://especiesbolivianas.info/img/ecoturismo/eco_42_412.jpg"
+                                                        border="0" width="150" height="99"></a></td>
+                                            <td class="CdaDescripcion" align="left" valign="top"><a
+                                                    href="ecoturismo_ver.aspx?eco=42" title="San Ignacio de Velasco">San
+                                                    Ignacio de Velasco</a><br>
+                                                <font color="maroon">Localidad: </font>Santa Cruz<span class="span1"> »
+                                                </span>Velasco<span class="span1"> » </span>San Ignacio de Velasco<br>
+                                                <font color="gray">San Ignacio de Velasco, (antiguamente San Ignacio de
+                                                    Loyola) es una ciudad y municipio de Bolivia, capital de la
+                                                    provincia de Velasco en el departamento de Santa Cruz, al este del
+                                                    país.
+
+                                                    Se ha convertido en un centro turístico.
+
+                                                    Lleva su nombre en honor al fundador de la Compañía de Jesús y los
+                                                    ...<a href="ecoturismo_ver.aspx?eco=42"
+                                                        title="mas información sobre San Ignacio de Velasco">mas</a>
+                                                </font>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+</section>            </div>
+
+</body>
+<footer>
+        <p>Propiedad de
+            <span style="color: rgb(0, 47, 255);">Samir Limachi Lopez </span>
+        </p>
+    </footer>
+    
+
+
+
+</html>
